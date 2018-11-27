@@ -1,6 +1,9 @@
 .stats-container {
     display: flex;
     justify-content: center;
+    background-color: #22262e;
+    width: 100vw;
+    padding: 10px 0;
 }
 
 .stats-ceil {

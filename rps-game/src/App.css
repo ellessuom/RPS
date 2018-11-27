@@ -3,17 +3,8 @@
   min-height: 100vh;
   background-color: #282c34;
   color: #dadada;
-}
-
-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-header h1 {
-  color: #5870a0;
-  text-shadow: 1px 1px 3px #212121;
+  align-items: center;
+  flex-direction: column;
 }

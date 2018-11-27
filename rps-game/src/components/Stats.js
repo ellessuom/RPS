@@ -18,6 +18,10 @@ export default class Stats extends Component {
                     <span className="label">Lost</span>
                     <span className="value">{ this.props.lost }</span>
                 </div>
+                <div className="stats-ceil">
+                    <span className="label">Draws</span>
+                    <span className="value">{ this.props.draws }</span>
+                </div>
             </div>
         )
     }
