@@ -1,0 +1,24 @@
+.stats-container {
+    display: flex;
+    justify-content: center;
+    background-color: #22262e;
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.stats-ceil {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.stats-ceil .label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stats-ceil .value {
+    font-weight: bold;
+    font-size: 22px;
+}
