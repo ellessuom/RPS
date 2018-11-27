@@ -12,7 +12,8 @@ class App extends Component {
     this.state = {
       won: 0,
       lost: 0,
-      draws: 0
+      draws: 0,
+      interaction_enabled: true
     };
   }
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
         <Stats won={ this.state.won } 
           lost={ this.state.lost } 
           draws={ this.state.draws }/>
-        <Controllers />
+        <Controllers is_enabled={ this.state.interaction_enabled }/>
       </div>
     );
   }
