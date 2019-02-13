@@ -1,0 +1,8 @@
+.Controllers {
+    width: 100vw;
+    height: 80px;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+}
