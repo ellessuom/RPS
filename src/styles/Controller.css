@@ -1,6 +1,14 @@
 .Controller {
+    display: block;
     color: white;
     margin: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: 200ms ease-in-out;
+}
+
+.Controller:hover {
+    transform: translateY(-3px);
 }
