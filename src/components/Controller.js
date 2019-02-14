@@ -5,10 +5,16 @@ import './../styles/Controller.css';
 export default class Controller extends Component {
     constructor (props) {
         super(props);
-        this.state = {};
-        this.state.type = this.props.type;
+        this.state = {
+            type: this.props.type
+        };
     }
-    render() {
-        return (<div className="Controller">{this.state.type}</div>);
+
+    handleClick () {
+        this.props.onSelectType(this.state.type);
+    }
+    
+    render () {
+        return (<div className="Controller" onClick={this.handleClick.bind(this)}>{ this.state.type }</div>);
     }
 }
